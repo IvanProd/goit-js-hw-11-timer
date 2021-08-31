@@ -45,7 +45,7 @@ class CountdownTimer {
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Aug 31, 2021'),
+  targetDate: new Date('Nov 26, 2021'),
 })
 
 window.addEventListener('DOMContentLoaded', timer.start.bind(timer))
